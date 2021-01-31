@@ -1,0 +1,29 @@
+@media only screen and (min-width: 64rem) {
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    nav ul {
+        margin-left: 2%;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        border: none;
+        padding: .8rem 1rem;
+    }
+    .headings h1 {
+        font-size: 4rem;
+        margin: 0 0 0 17px;
+    }
+    header img {
+        width: 124px;
+        height: auto;
+    }
+    .m {
+        font-size: 1.5rem;
+    }
+}
