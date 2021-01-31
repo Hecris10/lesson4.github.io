@@ -3,17 +3,24 @@
         display: none;
     }
     nav ul.hide {
-        display: block;
+        display: inline-block;
     }
     nav ul {
         margin-left: 2%;
     }
     nav ul li {
-        float: left;
+        display: inline-block;
+        margin-left: 4rem;
+        margin-right: auto;
     }
     nav ul li a {
         border: none;
-        padding: .8rem 1rem;
+        padding: 1rem 1rem;
+        padding-left: .2rem;
+        padding-right: .2rem;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
     }
     .headings h1 {
         font-size: 4rem;

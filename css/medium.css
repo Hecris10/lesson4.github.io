@@ -1,19 +1,39 @@
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 35em) and (max-width: 63rem) {
     nav button {
         display: none;
     }
     nav ul.hide {
-        display: flex;
+        display: inline-block;
     }
     nav ul {
         margin-left: 2%;
     }
     nav ul li {
-        align-items: center;
-        justify-content: center;
+        display: inline-block;
+        margin-left: 1rem;
+        margin-right: auto;
+        padding-left: 0%;
+        padding-right: 0%;
     }
     nav ul li a {
         border: none;
-        padding: .8rem 1rem;
+        padding: 1rem 1rem;
+        padding-left: .1rem;
+        padding-right: .1rem;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+        font-size: 1rem;
+    }
+    .headings h1 {
+        font-size: 2rem;
+        margin: 0 0 0 17px;
+    }
+    header img {
+        width: 60px;
+        height: auto;
+    }
+    .m {
+        font-size: 1rem;
     }
 }
