@@ -37,5 +37,5 @@ function getToday(){
     
     let fullDate = dayWeek + ", " + day + " " + monthName + " " + year; 
     
-    document.getElementById("time").innerHTML = fulldate;
+    document.getElementById("time").innerHTML = fullDate;
 }
