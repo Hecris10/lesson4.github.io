@@ -96,7 +96,7 @@ main h1 {
     color: #D51920;
 }
 
-a{
+a:link, a:visited, a:active{
     text-decoration: none;
 }
 
