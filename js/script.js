@@ -4,6 +4,7 @@ function toggleMenu() {
 }
 
 function getToday(){
+    alert("teste);
     var data = new Date();
     
     var weekday = new Array(7);
@@ -38,4 +39,5 @@ function getToday(){
     let fullDate = dayWeek + ", " + day + " " + monthName + " " + year; 
     
     document.getElementById("time").innerHTML = fullDate;
+    alert(fullDate);
 }
