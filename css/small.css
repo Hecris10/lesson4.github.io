@@ -96,8 +96,9 @@ main h1 {
     color: #D51920;
 }
 
-a:link, a:visited, a:active{
+.topics a{
     text-decoration: none;
+    color: #D51920;
 }
 
 footer {
