@@ -42,6 +42,10 @@ body {
     padding: 0;
     margin: 0;
 }
+p{
+    text-decoration: none;
+    color: #D51920;
+}
 
 header {
     background-color: #fff;
