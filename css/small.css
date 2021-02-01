@@ -1,3 +1,5 @@
+@import url(https://fonts.google.com/specimen/Noto+Sans+JP#standard-styles);
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -38,13 +40,14 @@ nav ul.hide {
 }
 
 body {
+    font-family: "Noto Sans JP";
     background-color: white;
     padding: 0;
     margin: 0;
 }
 p{
     text-decoration: none;
-    color: #D51920;
+    color: #D51920;;
 }
 
 header {
