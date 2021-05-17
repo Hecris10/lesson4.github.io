@@ -1,36 +1,57 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 65rem) {
+    h1 {
+        font-size: 6rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    .headings h1 {
+        margin-left: 20rem;
+        margin-right: 0;
+    }
+    .headings h2 {
+        margin-left: 20rem;
+        margin-top: -6rem;
+    }
     nav button {
         display: none;
     }
-    nav ul.hide {
-        display: inline-block;
-    }
-    nav ul {
-        margin-left: 2%;
-    }
-    nav ul li {
-        display: inline-block;
-        margin-left: 4rem;
-        margin-right: auto;
-    }
-    nav ul li a {
-        border: none;
-        padding: 1rem 1rem;
-        padding-left: .2rem;
-        padding-right: .2rem;
-        margin-left: 0;
-        margin-right: 0;
+    nav {
+        margin-top: 6rem;
         max-width: 100%;
     }
-    .headings h1 {
-        font-size: 4rem;
-        margin: 0 0 0 17px;
+    nav ul.hide {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
     }
-    header img {
-        width: 124px;
-        height: auto;
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 100%;
     }
-    .m {
-        font-size: 1.5rem;
+    nav ul li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    nav ul li a {
+        display: block;
+        padding: .8rem 2%;
+        width: 100%;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        font-size: 1.6rem;
+        border: none;
     }
 }

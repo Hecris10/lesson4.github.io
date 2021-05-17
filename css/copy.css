@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+/*Main Structure*/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*header */
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings img {
+    width: 6rem;
+    height: auto;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #3AACC6;
+    box-shadow: 0 2px 15px #3AACC6;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.active {
+    background-color: white;
+    color: #3AACC6;
+    box-shadow: 0 2px 15px #3AACC6;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid rgb(0, 0, 0, 0.3);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: red;
+    box-shadow: 0 2px 15px #3AACC6;
+}
+
+nav ul.hide {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*typography*/
+
+h1 {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}

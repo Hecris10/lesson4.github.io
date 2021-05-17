@@ -1,23 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: #3AACC6;
+}
+
+
+/*Typography*/
+
+h1 {
+    color: red;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 190%;
+}
+
+h2 {
+    color: #3AACC6;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+
+/*Header*/
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.headings img {
+    width: 32%;
+    height: auto;
+    padding: 0;
+}
+
+.headings h1 {
+    padding: 0;
+    margin-top: -25%;
+    margin-left: 7rem;
+    margin-right: 0;
+}
+
+.headings h2 {
+    padding: 0;
+    margin-top: -10%;
+    margin-left: 34%;
+}
+
+
+/*Nav*/
 
 nav button {
-    margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: WHITE;
+    color: white;
     font-weight: bold;
+    width: 100%;
+    padding: .8rem 2%;
 }
 
 nav {
-    background-color: #26A6D1;
-    box-shadow: 0 2px 15px #C4F0FF;
+    background-color: #3AACC6;
+    box-shadow: 0 2px 15px #3AACC6;
+    width: 100%;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    width: 100%;
+}
+
+.active {
+    background-color: white;
+    color: #3AACC6;
+    box-shadow: 0 2px 15px #3AACC6;
 }
 
 nav ul li a {
@@ -33,108 +115,37 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: white;
-    color: #26A6D1;
+    color: red;
+    box-shadow: 0 2px 15px #3AACC6;
 }
 
 nav ul.hide {
     display: none;
     font-family: 'Roboto', sans-serif;
 }
-h1,
-h2,
-h3,
-p{
-    font-family: 'Roboto', sans-serif;
-}
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-    padding: 0;
-    margin: 0;
-}
-p{
-    text-decoration: none;
-    color: #D51920;
-    font-family: 'Roboto', sans-serif;
+
+
+/*Main Structure*/
+
+.Hero,
+.Forecast,
+.Article,
+.Contact {
+    background-color: #FFEC5F;
+    margin: 4%;
+    padding: 1%;
+    border: dotted #3AACC6;
 }
 
-header {
-    background-color: #fff;
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #26A6D1;
-    font-family: 'Roboto', sans-serif;
-}
 
-header img {
-    width: 80px;
-    height: auto;
-}
-
-.headings {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Roboto', sans-serif;
-}
-
-h1 {
-    font-size: 1.6rem;
-    margin: 0 0 0 17px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.m {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    letter-spacing: 1pt;
-    color: #D51920;
-    margin-left: 20px;
-    font-size: .9rem;
-}
-
-main {
-    background-color: white;
-    margin-left: .4rem;
-    margin-right: .4rem;
-}
-
-main h1 {
-    color: #26A6D1;
-    text-align: center;
-    padding: .5rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-.topics {
-    font-family: 'Roboto', sans-serif;
-    border: dotted #C4F0FF;
-    padding: 0.3rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    background-color: white;
-    color: #D51920;
-}
-
-.topics a{
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: #D51920;
-}
+/*Footer*/
 
 footer {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: white;
-    padding: 0.9rem;
-    background-color: #26A6D1;
-    margin-left: .4rem;
-    margin-right: .4rem;
+    padding: 2%;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+footer p {
+    padding: 0;
+    color: white;
+    font-weight: bold;
 }

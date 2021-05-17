@@ -1,8 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
+<head>
+    <title>Idaho Seasons | Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Idaho Seasons Home Page by HELAMAN EWERTON">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+
+</head>
 
 <body>
-    <a href="preston-4.html">Preston</a>
+    <header>
+        <div class="headings">
+            <img class="logo" alt="Logo" src="image/icons.png">
+            <h1>IDAHO SEASONS</h1>
+            <br>
+            <h2>Plan Your Vacations</h2>
+            <br>
+        </div>
+        <div style="clear: both;"></div>
+        <nav>
+            <button onclick="toggleMenu()">&#9776 MENU</button>
+            <ul id="menu" class="hide">
+                <li><a class="active" href="#">PRESTON</a></li>
+                <li><a href="#">SODA SPRINGS</a></li>
+                <li><a href="#">FISH HAVEN</a></li>
+                <li><a href="#">STORM CENTER</a></li>
+                <li><a href="#">GALLERY</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <h1>PRESTON IDAHO</h1>
+
+        <div class="Hero">
+            <h3>Hero with Weather Summary</h3>
+        </div>
+        <div class="Forecast">
+            <h3>5 Day Forecast</h3>
+        </div>
+        <div class="Article">
+            <h3>Article</h3>
+        </div>
+        <div class="Contact">
+            <h3>Contact Information</h3>
+        </div>
+    </main>
+
+    <footer>
+        <p>©IDAHO SEASONS | Attributions | Helaman Ewerton</p>
+        <p><span id="date"></span></p>
+    </footer>
+    <script src="./js/script.js"></script>
+
 </body>
 
 </html>
